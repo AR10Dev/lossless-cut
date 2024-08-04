@@ -19,6 +19,6 @@ RUN curl -L $LOSSLESSCUT_URL -o /tmp/losslesscut.tar.bz2 && \
     rm /tmp/losslesscut.tar.bz2
 
 # Add LosslessCut to the PATH by creating a symbolic link
-RUN ln -s /opt/losslesscut/LosslessCut-linux-x64/losslesscut /usr/local/bin/losslesscut
+RUN ln -s /opt/losslesscut/losslesscut /usr/local/bin/losslesscut
 
 COPY /root /
