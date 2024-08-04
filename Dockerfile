@@ -14,11 +14,9 @@ RUN apk add --no-cache \
     alsa-lib \
     gtk+3.0 \
     nss \
-    at-spi2-atk \
-    libxss \
+    at-spi2-core \
     libxtst \
-    mesa-gl \
-    libgbm
+    mesa-gl
 
 # Define the version and URL
 ENV LOSSLESSCUT_VERSION 3.61.1
