@@ -31,7 +31,7 @@ jobs:
         with:
           platforms: linux/amd64
           context: .
-          push: false
+          push: true
           tags: ghcr.io/ar10dev/lossless-cut:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
