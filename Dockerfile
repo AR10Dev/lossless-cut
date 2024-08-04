@@ -4,7 +4,20 @@ FROM ghcr.io/linuxserver/baseimage-kasmvnc:alpine318
 RUN apk add --no-cache \
     bash \
     curl \
-    tar
+    tar \
+    bzip2 \
+    libstdc++ \
+    libx11 \
+    libxcomposite \
+    libxdamage \
+    libxrandr \
+    libasound2 \
+    libgtk-3-dev \
+    libnss3 \
+    libatk-bridge2.0-0 \
+    libxss1 \
+    libxtst6 \
+    libgbm1
 
 # Define the version and URL
 ENV LOSSLESSCUT_VERSION 3.61.1
