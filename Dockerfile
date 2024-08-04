@@ -11,13 +11,14 @@ RUN apk add --no-cache \
     libxcomposite \
     libxdamage \
     libxrandr \
-    libasound2 \
-    libgtk-3-dev \
-    libnss3 \
-    libatk-bridge2.0-0 \
-    libxss1 \
-    libxtst6 \
-    libgbm1
+    alsa-lib \
+    gtk+3.0 \
+    nss \
+    at-spi2-atk \
+    libxss \
+    libxtst \
+    mesa-gl \
+    libgbm
 
 # Define the version and URL
 ENV LOSSLESSCUT_VERSION 3.61.1
